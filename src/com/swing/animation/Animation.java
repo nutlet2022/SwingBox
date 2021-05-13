@@ -14,7 +14,7 @@ public class Animation {
         while (true) {
             panel.animate();
             try {
-               Thread.sleep(40);
+               Thread.sleep(400);
             }catch (InterruptedException e) {
                 e.printStackTrace();
             }
